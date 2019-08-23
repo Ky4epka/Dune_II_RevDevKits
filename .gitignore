@@ -6,5 +6,17 @@ $cat .gitignore
 *.exe
 *.dll
 *.sys
+*.bmp
+*.png
+*.jpg
+*.stat
+*.cfg
+*.vlb
+*.7z
+*.zip
+*.rar
+
 __history/
+__recovery/
 Win32/
+Maps/
