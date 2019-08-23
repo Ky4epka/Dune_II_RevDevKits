@@ -1,0 +1,10 @@
+$cat .gitignore
+*.txt
+*.local
+*.identcache
+*.dcu
+*.exe
+*.dll
+*.sys
+__history/
+Win32/
