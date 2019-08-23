@@ -1,0 +1,59 @@
+object dlgSpriteAthlas: TdlgSpriteAthlas
+  Left = 0
+  Top = 0
+  BorderStyle = bsSizeToolWin
+  Caption = 'dlgSpriteAthlas'
+  ClientHeight = 468
+  ClientWidth = 737
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  Visible = True
+  OnCreate = FormCreate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pRenderer: TPanel
+    Left = 185
+    Top = 0
+    Width = 552
+    Height = 468
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = 0
+    ExplicitWidth = 548
+  end
+  object gbTools: TGroupBox
+    Left = 0
+    Top = 0
+    Width = 185
+    Height = 468
+    Align = alLeft
+    Caption = 'Tools'
+    TabOrder = 1
+    ExplicitLeft = 1
+    ExplicitTop = 1
+    ExplicitHeight = 466
+    object rgMode: TRadioGroup
+      Left = 2
+      Top = 15
+      Width = 181
+      Height = 105
+      Align = alTop
+      ItemIndex = 0
+      Items.Strings = (
+        'None'
+        'Set empty cell')
+      TabOrder = 0
+      OnClick = rgModeClick
+      ExplicitLeft = 3
+      ExplicitTop = 32
+      ExplicitWidth = 185
+    end
+  end
+end
